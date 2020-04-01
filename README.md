@@ -33,11 +33,11 @@ In order to use the scripts one needs to examine the URLs that belong to the cou
 Demo
 ----
 ### Checkbox
-Checkbox URLs have a naming convention that ends with `prep-survey` and a number $n$.
+Checkbox URLs have a naming convention that ends with `prep-survey` and a number n.
 ```
 ./download_checkbox_submissions.sh 5
 ```
-is the code for $n=5$.
+is the code for n=5.
 
 ### Assignments
 Works for individual assignments as well that are managed in the Learning activities.
@@ -49,10 +49,10 @@ If the shortname is `ses4` then the code below could be helpful:
 
 Security
 --------
-While developing the scripts I had them run many many times and I did not any harm to the courses.
+While developing the scripts I had them run many many times and I did not do any harm to the courses.
 `wget` just sends queries, nothing is going to happen there.
 
-Make sure to logout from Learn in Firfon after (successfully) using the script.
+Make sure to logout from Learn in Firefox after (successfully) using the script.
 
 Maintenance
 -----------
